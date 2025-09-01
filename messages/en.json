@@ -1,0 +1,72 @@
+{
+  "brand": "Victorious Company",
+  "nav": {
+    "benefits": "Benefits",
+    "plans": "Plans",
+    "sentinel": "Sentinel360",
+    "gallery": "Gallery",
+    "contact": "Contact"
+  },
+  "cta": {
+    "schedule": "Schedule Now",
+    "whatsapp": "WhatsApp Now"
+  },
+  "hero": {
+    "title": "Preventive Air-Conditioning Maintenance",
+    "subtitle": "Comfort, efficiency and 24/7 temperature & humidity monitoring with Sentinel360 — protection against black mold in Orlando."
+  },
+  "form": {
+    "quickTitle": "Get a quote now",
+    "name": "Your name",
+    "phone": "Phone",
+    "email": "Email",
+    "message": "Describe your need",
+    "send": "Send",
+    "sent": "Message sent! We'll contact you soon.",
+    "error": "Error sending. Try again."
+  },
+  "benefits": {
+    "title": "Why Victorious?",
+    "b1": "Save — a clean system consumes less energy. Those who organize don’t agonize.",
+    "b2": "Prevent surprises — monthly drain cleaning and filter changes avoid leaks and breakdowns.",
+    "b3": "24/7 monitoring — Sentinel360 protects your home from extreme humidity/temperature."
+  },
+  "plans": "Plans",
+  "plan1": {
+    "title": "Plan 1 — Essential",
+    "p1": "Monthly visit: drain cleaning",
+    "p2": "Filter change every 2 months (included)",
+    "p3": "Digital report with photos"
+  },
+  "plan2": {
+    "title": "Plan 2 — Essential + Ducts",
+    "p1": "Everything from Plan 1",
+    "p2": "1 annual full duct cleaning",
+    "p3": "Priority service"
+  },
+  "plan3": {
+    "title": "Plan 3 — Premium Total",
+    "p1": "Plan 2 + antibacterial application",
+    "p2": "24/7 Sentinel360 installation & monitoring",
+    "p3": "Fast action against black mold risk"
+  },
+  "sentinel": {
+    "title": "Sentinel360, our monitoring partner",
+    "p": "We use sensors from our partner Sentinel360. Together we monitor temperature and humidity 24/7 in real time. Our team watches continuously and acts quickly whenever values go out of range, reducing the risk of black mold and structural damage.",
+    "li1": "Real-time alerts (SMS/Email)",
+    "li2": "Data history & reports",
+    "li3": "Clean install, no construction"
+  },
+  "contact": {
+    "title": "Request your quote"
+  },
+  "footer": {
+    "copy": "Preventive Air-Conditioning Maintenance in Orlando, FL",
+    "motto": "Those who organize don’t agonize."
+    
+  },
+  "contact": {
+    "title": "Request your quote",
+    "subtitle": "Contact us to ask questions or request a quote."
+  }
+}

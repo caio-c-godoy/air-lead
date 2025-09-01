@@ -1,0 +1,71 @@
+{
+  "brand": "Victorious Company",
+  "nav": {
+    "benefits": "Benefícios",
+    "plans": "Planos",
+    "sentinel": "Sentinel360",
+    "gallery": "Galeria",
+    "contact": "Contato"
+  },
+  "cta": {
+    "schedule": "Agende Agora",
+    "whatsapp": "Falar no WhatsApp"
+  },
+  "hero": {
+    "title": "Manutenção Preventiva de Ar-Condicionado",
+    "subtitle": "Conforto, eficiência e monitoramento 24h de temperatura e umidade com Sentinel360 — proteção contra mofo negro em Orlando."
+  },
+  "form": {
+    "quickTitle": "Receba um orçamento agora",
+    "name": "Seu nome",
+    "phone": "Telefone",
+    "email": "E-mail",
+    "message": "Descreva sua necessidade",
+    "send": "Enviar",
+    "sent": "Mensagem enviada! Em breve entraremos em contato.",
+    "error": "Erro ao enviar. Tente novamente."
+  },
+  "benefits": {
+    "title": "Por que a Victorious?",
+    "b1": "Economize — equipamento limpo consome menos energia. Quem organiza não agoniza.",
+    "b2": "Previna surpresas — limpeza mensal do dreno e troca de filtros evitam vazamentos e quebras.",
+    "b3": "Monitoramento 24/7 — Sentinel360 protege sua casa contra umidade/temperatura extrema."
+  },
+  "plans": "Planos",
+  "plan1": {
+    "title": "Plano 1 — Essencial",
+    "p1": "Visita mensal: limpeza do dreno",
+    "p2": "Troca de filtro a cada 2 meses (incluso)",
+    "p3": "Relatório digital com fotos"
+  },
+  "plan2": {
+    "title": "Plano 2 — Essencial + Dutos",
+    "p1": "Tudo do Plano 1",
+    "p2": "1 limpeza anual completa de dutos",
+    "p3": "Prioridade em atendimento"
+  },
+  "plan3": {
+    "title": "Plano 3 — Premium Total",
+    "p1": "Plano 2 + aplicação antibacteriana",
+    "p2": "Instalação e monitoramento 24h Sentinel360",
+    "p3": "Ação rápida contra risco de mofo negro"
+  },
+   "sentinel": {
+    "title": "Sentinel360, nossa parceira de monitoramento",
+    "p": "Usamos os sensores da nossa parceira Sentinel360. Juntos, monitoramos 24h temperatura e umidade em tempo real. Nossa equipe acompanha continuamente e intervém rapidamente quando algo foge do ideal, mitigando riscos de mofo negro e danos estruturais.",
+    "li1": "Alertas em tempo real (SMS/E-mail)",
+    "li2": "Histórico de dados e relatórios",
+    "li3": "Instalação limpa, sem obras"
+  },
+  "contact": {
+    "title": "Solicite seu Orçamento"
+  },
+  "footer": {
+    "copy": "Manutenção Preventiva de Ar-Condicionado em Orlando, FL",
+    "motto": "Quem organiza não agoniza."
+  },
+    "contact": {
+    "title": "Solicite seu Orçamento",
+    "subtitle": "Fale conosco para tirar dúvidas ou solicitar um orçamento."
+  }
+}

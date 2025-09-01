@@ -1,0 +1,14 @@
+# Dependências
+node_modules/
+
+# Build do Next.js
+.next/
+out/
+
+# Configurações locais
+.env*
+*.log
+
+# Editor/IDE
+.vscode/
+.DS_Store

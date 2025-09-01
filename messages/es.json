@@ -1,0 +1,71 @@
+{
+  "brand": "Victorious Company",
+  "nav": {
+    "benefits": "Beneficios",
+    "plans": "Planes",
+    "sentinel": "Sentinel360",
+    "gallery": "Galería",
+    "contact": "Contacto"
+  },
+  "cta": {
+    "schedule": "Agenda Ahora",
+    "whatsapp": "Hablar por WhatsApp"
+  },
+  "hero": {
+    "title": "Mantenimiento Preventivo de Aire Acondicionado",
+    "subtitle": "Confort, eficiencia y monitoreo 24/7 de temperatura y humedad con Sentinel360 — protección contra moho negro en Orlando."
+  },
+  "form": {
+    "quickTitle": "Reciba una cotización ahora",
+    "name": "Su nombre",
+    "phone": "Teléfono",
+    "email": "Correo",
+    "message": "Describa su necesidad",
+    "send": "Enviar",
+    "sent": "¡Mensaje enviado! Nos pondremos en contacto pronto.",
+    "error": "Error al enviar. Intente de nuevo."
+  },
+  "benefits": {
+    "title": "¿Por qué Victorious?",
+    "b1": "Ahorre — equipo limpio consume menos energía. Quien organiza no agoniza.",
+    "b2": "Evite sorpresas — limpieza mensual del desagüe y cambio de filtros previenen fugas y fallas.",
+    "b3": "Monitoreo 24/7 — Sentinel360 protege su hogar de humedad/temperatura extrema."
+  },
+  "plans": "Planes",
+  "plan1": {
+    "title": "Plan 1 — Esencial",
+    "p1": "Visita mensual: limpieza del desagüe",
+    "p2": "Cambio de filtro cada 2 meses (incluido)",
+    "p3": "Informe digital con fotos"
+  },
+  "plan2": {
+    "title": "Plan 2 — Esencial + Conductos",
+    "p1": "Todo del Plan 1",
+    "p2": "1 limpieza anual completa de conductos",
+    "p3": "Atención prioritaria"
+  },
+  "plan3": {
+    "title": "Plan 3 — Premium Total",
+    "p1": "Plan 2 + aplicación antibacteriana",
+    "p2": "Instalación y monitoreo 24/7 Sentinel360",
+    "p3": "Acción rápida contra riesgo de moho negro"
+  },
+  "sentinel": {
+    "title": "Sentinel360, nuestra socia de monitoreo",
+    "p": "Utilizamos sensores de nuestra socia Sentinel360. Juntos monitoreamos temperatura y humedad 24/7 en tiempo real. Nuestro equipo supervisa continuamente y actúa rápidamente ante cualquier desvío, mitigando el riesgo de moho negro y daños estructurales.",
+    "li1": "Alertas en tiempo real (SMS/Email)",
+    "li2": "Historial de datos e informes",
+    "li3": "Instalación limpia, sin obras"
+  },
+  "contact": {
+    "title": "Solicite su Cotización"
+  },
+  "footer": {
+    "copy": "Mantenimiento Preventivo de Aire Acondicionado en Orlando, FL",
+    "motto": "Quien organiza no agoniza."
+  },
+  "contact": {
+    "title": "Solicite su presupuesto",
+    "subtitle": "Contáctenos para resolver dudas o solicitar un presupuesto."
+  }
+}
