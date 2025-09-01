@@ -19,7 +19,14 @@ export default function Nav({messages, locale}:{messages:any, locale:string}){
     <nav className={`fixed top-0 inset-x-0 z-50 transition-colors ${scrolled?'bg-brand-blue/85 shadow-brand':'bg-transparent'} backdrop-blur`}>
       <div className="container flex items-center justify-between py-3">
         <a href={`/${locale}`} className="flex items-center gap-3">
-          <Image src="/logo-victorious.webp"  width={95} height={95} priority />
+          <Image
+            src="/logo-victorious.webp"
+            alt="Logo da Victorious"
+            width={95}
+            height={95}
+            priority
+          />
+
          
         </a>
 
