@@ -1,7 +1,6 @@
 'use client'
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
-import ReactCountryFlag from 'react-country-flag'
 
 function tFrom(messages: any) {
   return (key: string) => key.split('.').reduce((o, p) => o?.[p], messages) ?? key
@@ -20,8 +19,9 @@ export default function Nav({ messages, locale }: { messages: any, locale: strin
 
   return (
     <nav
-      className={`fixed top-0 inset-x-0 z-50 transition-colors ${scrolled ? 'bg-brand-blue/85 shadow-brand' : 'bg-transparent'
-        } backdrop-blur`}
+      className={`fixed top-0 inset-x-0 z-40 transition-colors ${
+        scrolled ? 'bg-brand-blue/85 shadow-brand' : 'bg-transparent'
+      } backdrop-blur`}
     >
       <div className="container flex items-center justify-between py-3">
         {/* Logo */}
@@ -41,22 +41,6 @@ export default function Nav({ messages, locale }: { messages: any, locale: strin
           <a href="#plans" className="hover:text-brand-gold">{t('nav.plans')}</a>
           <a href="#sentinel" className="hover:text-brand-gold">Sentinel360</a>
           <a href="#contact" className="btn-primary">{t('nav.contact')}</a>
-
-          {/* Idiomas Desktop */}
-          <div className="flex items-center gap-4 ml-4">
-            <a href="/en" className="flex items-center gap-1 hover:text-brand-gold">
-              <ReactCountryFlag countryCode="US" svg style={{ width: '1.5em', height: '1.5em' }} />
-              <span className="hidden md:inline">US</span>
-            </a>
-            <a href="/pt" className="flex items-center gap-1 hover:text-brand-gold">
-              <ReactCountryFlag countryCode="BR" svg style={{ width: '1.5em', height: '1.5em' }} />
-              <span className="hidden md:inline">BR</span>
-            </a>
-            <a href="/es" className="flex items-center gap-1 hover:text-brand-gold">
-              <ReactCountryFlag countryCode="ES" svg style={{ width: '1.5em', height: '1.5em' }} />
-              <span className="hidden md:inline">ES</span>
-            </a>
-          </div>
         </div>
 
         {/* Menu Mobile */}
@@ -73,20 +57,13 @@ export default function Nav({ messages, locale }: { messages: any, locale: strin
               <a href="#benefits" onClick={() => setOpen(false)}>{t('nav.benefits')}</a>
               <a href="#plans" onClick={() => setOpen(false)}>{t('nav.plans')}</a>
               <a href="#sentinel" onClick={() => setOpen(false)}>Sentinel360</a>
-              <a href="#contact" className="btn-primary" onClick={() => setOpen(false)}>{t('nav.contact')}</a>
-
-              {/* Idiomas Mobile (somente bandeiras) */}
-              <div className="flex items-center gap-3 mt-2">
-                <a href="/en" onClick={() => setOpen(false)}>
-                  <ReactCountryFlag countryCode="US" svg style={{ width: '2em', height: '2em' }} />
-                </a>
-                <a href="/pt" onClick={() => setOpen(false)}>
-                  <ReactCountryFlag countryCode="BR" svg style={{ width: '2em', height: '2em' }} />
-                </a>
-                <a href="/es" onClick={() => setOpen(false)}>
-                  <ReactCountryFlag countryCode="ES" svg style={{ width: '2em', height: '2em' }} />
-                </a>
-              </div>
+              <a
+                href="#contact"
+                className="btn-primary"
+                onClick={() => setOpen(false)}
+              >
+                {t('nav.contact')}
+              </a>
             </div>
           )}
         </div>

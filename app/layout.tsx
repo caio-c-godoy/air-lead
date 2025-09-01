@@ -1,6 +1,7 @@
 // app/layout.tsx
 import './globals.css'
 import { ReactNode } from 'react'
+import LanguageSwitcher from '@/components/LanguageSwitcher'
 
 export const metadata = {
   title: 'Air Lead',
@@ -10,7 +11,10 @@ export const metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <LanguageSwitcher />   {/* 👈 agora aparece em todas as páginas */}
+        {children}
+      </body>
     </html>
   )
 }
